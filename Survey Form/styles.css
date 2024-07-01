@@ -1,0 +1,75 @@
+.bg {
+    background-color: #cccccc;
+    background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-018.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  .title {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-family: Tahoma, sans-serif;
+    color: #fffffe;
+  }
+  .ptag {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    color: #fffffe;
+  }
+  .bgg {
+    margin: 10px auto;
+    max-width: 600px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .reco {
+    border: none;
+    padding: 0;
+  }
+  label {
+    display: block;
+    color: #fffffe;
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+  }
+  .inline {
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .sel {
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .textArea {
+    display: block;
+    margin-top: 10px;
+    height: 100px;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  #submit {
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  

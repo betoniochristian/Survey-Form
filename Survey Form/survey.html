@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="bg">
+    <h1 id="title" class="title">Survey Form</h1>
+    <p id="description" class="ptag">This is my survey form</p>
+    <form method="post" id="survey-form">
+      <div class="bgg"> 
+
+        <fieldset class="reco">
+          <label for="name-label" id="name-label">Enter your name: <input class="inline" id="name" type="text"  placeholder="Enter your name" required ></label>
+
+          <label for="email-label" id="email-label">Enter your email: <input class="inline" id="email" type="email" placeholder="Enter your email" required></label>
+
+          <label for="number-label" id="number-label">Enter your age (optional): <input class="inline" id="number" type="number" min="13" max="120" placeholder="Enter your age" ></label>
+        </fieldset>
+
+        <fieldset class="reco">
+          <label>Should I continue learning in FreeCodeCamp?</label>
+          <label><input type="radio" value="yes" name="yes-no-maybe" checked>Yes</label>
+          <label><input type="radio" value="no" name="yes-no-maybe">No</label>
+          <label><input type="radio" value="maybe" name="yes-no-maybe">Maybe</label>
+        </fieldset>
+        
+        <fieldset class="reco">
+          <label>
+            What should I improve?
+            <select id="dropdown" class="sel">
+              <option>Select an option</option>
+              <option>Back-end</option>
+              <option>Front-end</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <fieldset class="reco">
+          <label>What position best suited to me?</label>
+          <label><input type="checkbox" value="Back-end">Back-end developer</label>
+          <label><input type="checkbox" value="Front-end">Front-end developer</label>
+          <label><input type="checkbox" value="soft-eng">Software Engineer</label>
+        </fieldset>
+
+        <fieldset class="reco">
+          <label>Any comment and suggestion <textarea class="textArea" placeholder="Enter your comment here:"></textarea></label>
+          <label><input class="inline" id="submit" type="submit" value="Submit"></label>
+        </fieldset>
+        
+      </div>
+    </form>
+  </body>
+</html>
